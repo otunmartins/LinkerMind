@@ -1,0 +1,17 @@
+# Large data files (should be downloaded separately)
+*.pkl
+*.csv
+
+# Except these essential files
+!data/processed/linkermind_final_dataset_fixed.csv
+!data/processed/positive_linkers_combined.csv
+!data/processed/negative_decoys.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db

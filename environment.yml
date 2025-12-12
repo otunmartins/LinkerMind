@@ -1,0 +1,19 @@
+name: linkermind
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - rdkit
+  - pytorch
+  - pytorch-geometric
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - transformers
+  - xgboost
+  - openpyxl
+  - tqdm
+  - pip
